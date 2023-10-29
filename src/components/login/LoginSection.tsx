@@ -4,7 +4,7 @@ import React from "react";
 import { Box, Grid } from "@mui/material";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import LoginForm from "../Auth/UserLogin";
+import LoginForm from "../auth/UserLogin";
 const LoginSection = () => {
   const pathName = usePathname();
   return (
