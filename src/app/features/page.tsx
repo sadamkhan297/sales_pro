@@ -1,15 +1,15 @@
 /** @format */
-import AutoDialerStepper from "@/components/Features/AutoDialerStepper";
-import Automation from "@/components/Features/Automation";
-import CRMStepper from "@/components/Features/CRMStepper";
-import HomeSection from "@/components/Features/HomeSection";
-import ReportingStepper from "@/components/Features/ReportingStepper";
-import SmsStepper from "@/components/Features/SmsStepper";
-import SmsTabs from "@/components/Features/SmsTabs";
-import SocialStepper from "@/components/Features/SocialStepper";
-import TrainingStepper from "@/components/Features/TrainingStepper";
-import UnlimitedEmailStepper from "@/components/Features/UnlimitedEmailStepper";
-import WebsiteStepper from "@/components/Features/WebsiteStepper";
+import AutoDialerStepper from "@/components/features/AutoDialerStepper";
+import Automation from "@/components/features/Automation";
+import CRMStepper from "@/components/features/CRMStepper";
+import HomeSection from "@/components/features/HomeSection";
+import ReportingStepper from "@/components/features/ReportingStepper";
+import SmsStepper from "@/components/features/SmsStepper";
+import SmsTabs from "@/components/features/SmsTabs";
+import SocialStepper from "@/components/features/SocialStepper";
+import TrainingStepper from "@/components/features/TrainingStepper";
+import UnlimitedEmailStepper from "@/components/features/UnlimitedEmailStepper";
+import WebsiteStepper from "@/components/features/WebsiteStepper";
 import FreeTrial from "@/components/home/FreeTrial";
 import { Box } from "@mui/material";
 
