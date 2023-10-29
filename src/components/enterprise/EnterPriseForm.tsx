@@ -67,7 +67,7 @@ const EnterPriseForm: React.FC = () => {
       boxShadow={2}
       borderRadius={5}
       mx={{ xs: 0, md: 3 }}
-      p={{ xs: 2, sm: 5 }}>
+      p={{ xs: 3, sm: 5 }}>
       <Typography
         sx={{
           fontSize: { xs: "1.5rem", md: "2.2vw" },

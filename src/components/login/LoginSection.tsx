@@ -10,8 +10,9 @@ const LoginSection = () => {
   return (
     <Box
       color="#fff"
-      py={{ xs: 0, md: 10 }}
+      py={{ xs: 2, md: 10 }}
       px={{ xs: 4, md: 10 }}
+      mb={5}
       display="flex"
       justifyContent="center"
       alignItems="center">
@@ -30,26 +31,28 @@ const LoginSection = () => {
         }}></Box>
       <Grid
         container
+        justifyContent="center"
         alignItems="center"
         spacing={2}>
         <Grid
           item
-          xs={12}
+          xs={10}
           md={6}
           lg={6}>
           <Box
-            display="flex"
-            flexDirection="column"
             gap={1.5}
-            width="100%"
-            height="100%"
+            sx={{
+              width: "100%",
+              height: "100%",
+              mb: 2,
+            }}
             pr={{ xs: 0, md: 2 }}>
             <Image
               src="/images/loginImg.svg"
               alt="loginImg"
               width={500}
               height={500}
-              layout="intrinsic"
+              layout="responsive"
             />
           </Box>
         </Grid>

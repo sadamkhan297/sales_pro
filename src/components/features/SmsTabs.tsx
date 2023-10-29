@@ -99,10 +99,10 @@ const SmsTabs = () => {
     <Box mt={7}>
       <Box
         sx={{
-          width: { xs: "80%", lg: "68%" },
-          m: "20px auto",
+          width: { xs: "90%", lg: "68%" },
+          m: { xs: "0px auto", sm: "20px auto" },
           borderRadius: 5,
-          p: { xs: 2, sm: 5 },
+          p: { xs: 1, sm: 5 },
         }}>
         <Box
           display="flex"
@@ -119,7 +119,6 @@ const SmsTabs = () => {
               <Box
                 sx={{
                   p: 0,
-
                   display: "flex",
                   ".MuiTabs-indicator": {
                     bgcolor: "inherit",

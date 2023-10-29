@@ -30,7 +30,7 @@ const WebsiteStepper = () => {
       bgcolor="#E6EDFF">
       <Box
         sx={{
-          width: "90%",
+          width: { xs: "100%", sm: "90%" },
           m: "20px auto",
           borderRadius: 5,
           p: { xs: 2, sm: 5 },

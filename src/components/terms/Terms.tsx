@@ -30,12 +30,12 @@ const TermsCondition = () => {
         <Image
           src="/logo/termsLogo.svg"
           alt="termsLogo"
-          width={80}
-          height={80}
+          width={70}
+          height={70}
         />
         <Typography
           sx={{
-            fontSize: { xs: "2rem", md: "3vw" },
+            fontSize: { xs: "1.5rem", md: "3vw" },
           }}
           component="p"
           fontFamily="Righteous"

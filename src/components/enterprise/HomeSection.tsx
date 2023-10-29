@@ -155,7 +155,7 @@ const HomeSection = () => {
           xs={12}
           md={7}
           lg={8}>
-          <Box>
+          <Box mb={8}>
             <EnterPriseForm />
           </Box>
         </Grid>

@@ -11,7 +11,7 @@ import TrialForm from "./TrialForm";
 const FreeTrial = () => {
   return (
     <Grid
-      width={{ xs: "90%", sm: "80%" }}
+      width="80%"
       m="auto"
       container
       alignItems="center">

@@ -71,7 +71,7 @@ const UserSignup: React.FC = () => {
             pt="0 !important"
             item
             xs={12}
-            md={6}>
+            lg={6}>
             <InputFields
               type="text"
               name="fullName"
@@ -85,7 +85,7 @@ const UserSignup: React.FC = () => {
             item
             pt="0 !important"
             xs={12}
-            md={6}>
+            lg={6}>
             <InputFields
               type="number"
               name="phone"
@@ -167,23 +167,23 @@ const UserSignup: React.FC = () => {
               Contact sales
             </Button>
           </Grid>
-          <Typography
-            color="#919B9B"
-            display="flex"
-            gap={1}
-            ml="auto"
-            mr={1}
-            mt={1}>
-            You Have account
-            <Link
-              style={{
-                color: "#FF403E",
-              }}
-              href="/login">
-              Login
-            </Link>
-          </Typography>
         </Grid>
+        <Typography
+          color="#919B9B"
+          display="flex"
+          justifyContent="end"
+          gap={1}
+          mr={1}
+          mt={2}>
+          You Have account
+          <Link
+            style={{
+              color: "#FF403E",
+            }}
+            href="/login">
+            Login
+          </Link>
+        </Typography>
       </form>
     </Box>
   );

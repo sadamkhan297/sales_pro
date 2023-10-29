@@ -12,6 +12,7 @@ const SignupSection = () => {
       color="#fff"
       pt={{ xs: 0, md: 5 }}
       px={{ xs: 4, md: 10 }}
+      pb={5}
       display="flex"
       justifyContent="center"
       alignItems="center">
@@ -20,12 +21,12 @@ const SignupSection = () => {
           backgroundImage: 'url("/images/signBg.svg")',
           position: "absolute",
           backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundPosition: "left",
           backgroundRepeat: "no-repeat",
           right: 0,
           top: 0,
           width: "30%",
-          height: "101%",
+          height: "125%",
           zIndex: -1,
         }}></Box>
       <Grid
@@ -39,18 +40,18 @@ const SignupSection = () => {
           md={6}
           lg={6}>
           <Box
-            display="flex"
-            flexDirection="column"
             gap={1.5}
-            width="100%"
-            height="100%"
+            sx={{
+              width: "100%",
+              height: "100%",
+            }}
             pr={{ xs: 0, md: 2 }}>
             <Image
               src="/images/signupImg.svg"
               alt="loginImg"
-              width={600}
-              height={500}
-              layout="intrinsic"
+              width={500}
+              height={600}
+              layout="responsive"
             />
           </Box>
         </Grid>

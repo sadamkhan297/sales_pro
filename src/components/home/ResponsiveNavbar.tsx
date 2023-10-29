@@ -95,7 +95,17 @@ const ResponiveNavbar: React.FC<Props> = ({ open, setOpen }) => {
           alignItems="center"
           gap={2}
           mt={2}>
-          <Link href="/contacts">Contact sales</Link>
+          <Button
+            onClick={() => router.push("/contacts")}
+            variant="contained"
+            sx={{
+              textTransform: "capitalize",
+              bgcolor: "#644AA0 !important",
+              color: "#fff",
+              borderRadius: 10,
+            }}>
+            Contact sales
+          </Button>
           <Button
             onClick={() => router.push("/login")}
             variant="contained"

@@ -53,8 +53,8 @@ const TrialForm: React.FC = () => {
       boxShadow={2}
       borderRadius={5}
       my={5}
-      mx={3}
-      p={5}>
+      mx={{ xs: 0, sm: 3 }}
+      p={{ xs: 2, sm: 5 }}>
       <Typography
         color="#0051C4"
         variant="h4"
