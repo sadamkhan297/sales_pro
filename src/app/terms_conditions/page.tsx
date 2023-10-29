@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Box } from "@mui/material";
-import TermsCondition from "@/components/Terms/Terms";
+import TermsCondition from "@/components/terms/Terms";
 import Footer from "@/components/home/Footer";
 
 const page = () => {

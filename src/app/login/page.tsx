@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import LoginSection from "@/components/Login/LoginSection";
+import LoginSection from "@/components/login/LoginSection";
 import { Box} from "@mui/material";
 import Footer from "@/components/home/Footer";
 

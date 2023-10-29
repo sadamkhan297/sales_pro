@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Box } from "@mui/material";
-import SignupSection from "@/components/Signup/SignupSection";
+import SignupSection from "@/components/signup/SignupSection";
 import Footer from "@/components/home/Footer";
 
 const Signup = () => {
