@@ -88,7 +88,7 @@ const Navbar = () => {
               </Link>
             </Box>
           </Box>
-          {usePath === "/login" ? (
+          {usePath === "/login" && usePath === "/signup" ? (
             ""
           ) : (
             <Box
