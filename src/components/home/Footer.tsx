@@ -2,12 +2,13 @@
 "use client";
 import React from "react";
 import { Box, Button, Grid, Typography } from "@mui/material";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
   const usePath = usePathname();
+  const router = useRouter();
 
   return (
     <Box
@@ -138,7 +139,7 @@ const Footer = () => {
               gap={1}
               color="rgba(255, 255, 255, 0.5)">
               <Typography mb={2}>Company Menu</Typography>
-              <Link href="/home">
+              <Link href="/about">
                 <Typography
                   variant="body2"
                   sx={{ color: "#fff" }}>
@@ -159,7 +160,7 @@ const Footer = () => {
                   Testimonials
                 </Typography>
               </Link>
-              <Link href="/Enterprise">
+              <Link href="/support">
                 <Typography
                   variant="body2"
                   sx={{ color: "#fff" }}>
@@ -181,6 +182,7 @@ const Footer = () => {
             alignItems={{ xs: "center", md: "flex-start" }}
             gap={3}>
             <Button
+              onClick={() => router.push("/signup")}
               variant="contained"
               sx={{
                 bgcolor: "#fff !important",
@@ -193,6 +195,7 @@ const Footer = () => {
               Signup
             </Button>
             <Button
+              onClick={() => router.push("/login")}
               variant="contained"
               sx={{
                 bgcolor:
